@@ -1,60 +1,58 @@
 import java.util.ArrayList;
 
 public class Disco {
-    private String titulo;
-    private int anoLancamento;
-    private Artista artista;
-    private ArrayList<String> faixas;//maneira certa para colocar lista como atributo
+    private String tituloDisco;
+    private int anoLancamentoDisco;
+    private Artista artistaDisco;
+    private ArrayList<String> faixasDisco;
 
-    public Disco(String titulo, int anoLancamento, Artista artista) {
-        this.titulo = titulo;
-        this.anoLancamento = anoLancamento;
-        this.artista = artista;
-        this.faixas = new ArrayList<>();
-    }//construtor não recebe faixas como parâmetro pois posteriormente serão adicionadas
-
-    public String getTitulo() {
-        return titulo;
+    public Disco(String tituloDisco, int anoLancamentoDisco, Artista artistaDisco) {
+        this.tituloDisco = tituloDisco;
+        this.anoLancamentoDisco = anoLancamentoDisco;
+        this.artistaDisco = artistaDisco;
+        this.faixasDisco = new ArrayList<>();
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
+    public String getTituloDisco() {return tituloDisco;}
+
+    public void setTituloDisco(String tituloDisco) {
+        this.tituloDisco = tituloDisco;
     }
 
-    public int getAnoLancamento() {
-        return anoLancamento;
+    public int getAnoLancamentoDisco() {
+        return anoLancamentoDisco;
     }
 
-    public void setAnoLancamento(int anoLancamento) {
-        this.anoLancamento = anoLancamento;
+    public void setAnoLancamentoDisco(int anoLancamentoDisco) {
+        this.anoLancamentoDisco = anoLancamentoDisco;
     }
 
-    public Artista getArtista() {
-        return artista;
+    public Artista getArtistaDisco() {
+        return artistaDisco;
     }
 
-    public void setArtista(Artista artista) {
-        this.artista = artista;
+    public void setArtistaDisco(Artista artista) {
+        this.artistaDisco = artistaDisco;
     }
 
-    public ArrayList<String> getFaixas() {
-        return faixas;
+    public ArrayList<String> getFaixasDisco() {
+        return faixasDisco;
     }
 
-    public void setFaixas(ArrayList<String> faixas) {
-        this.faixas = faixas;
+    public void setFaixasDisco(ArrayList<String> faixas) {
+        this.faixasDisco = faixas;
     }
 
     public void adicionarFaixa(String faixa) {
-        faixas.add(faixa);
+        faixasDisco.add(faixa);
     }
 
     @Override
     public String toString() {
-        return "titulo: " + titulo +
-                "\nano lancamento: " + anoLancamento +
-                "\nartista: " + artista.getNome() + //usei o getNome para pegar o atributo da outra classe
-                "\nfaixas: " + faixas +
+        return "titulo: " + tituloDisco +
+                "\nano lancamento: " + anoLancamentoDisco +
+                "\nartista: " + artistaDisco.getNome() +
+                "\nfaixas: " + faixasDisco +
                 "\n--------";
     }
 }

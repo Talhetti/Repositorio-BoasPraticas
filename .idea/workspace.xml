@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f51f041-d769-412a-ac56-b18fd533efae" name="Changes" comment="" />
+    <list default="true" id="5f51f041-d769-412a-ac56-b18fd533efae" name="Changes" comment="comit sobre alteração de variáveis para melhor entendimento da tela Disco" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Talhetti&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Talhetti/Repositorio-BoasPraticas.git&quot;,
+    &quot;accountId&quot;: &quot;3e69e630-038f-47ae-9c33-af4b93acde92&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2tcliOlufkUAxP68PNUOU1127Cm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "branch-Alvaro",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Arthu/Desktop/Cat-logoDiscos-main",
     "node.js.detected.package.eslint": "true",
@@ -46,10 +62,25 @@
       <option name="presentableId" value="Default" />
       <updated>1740659373009</updated>
       <workItem from="1740659374270" duration="366000" />
+      <workItem from="1740662484461" duration="219000" />
+      <workItem from="1740662724430" duration="341000" />
     </task>
+    <task id="LOCAL-00001" summary="comit sobre alteração de variáveis para melhor entendimento da tela Disco">
+      <option name="closed" value="true" />
+      <created>1740663066629</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740663066629</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="comit sobre alteração de variáveis para melhor entendimento da tela Disco" />
+    <option name="LAST_COMMIT_MESSAGE" value="comit sobre alteração de variáveis para melhor entendimento da tela Disco" />
   </component>
 </project>
