@@ -20,7 +20,7 @@ public class Main {
             System.out.println("7 : Remover Disco");
             System.out.println("8 : Sair");
             System.out.print("Escolha uma opção correta: ");
-            escolha = iu.lerInteiro(""); // Usando a interfaceUsuario para ler o número da opção
+            escolha = iu.lerInteiro("");
 
             switch (escolha) {
                 case 1:
