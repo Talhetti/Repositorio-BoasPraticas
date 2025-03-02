@@ -1,14 +1,15 @@
 import java.util.Scanner;
 
 public class interfaceUsuario {
-    private Scanner sc = new Scanner(System.in);
+    private final Scanner sc;
 
     public interfaceUsuario(Scanner sc) {
         this.sc = sc;
     }
 
     public String lerTexto(String mensagem) {
-        //fazer comparação se o dado for correto, se não for texto, manda na tela para retornar um certo
+        System.out.print(mensagem);
+
         while (!sc.hasNextLine()) {
             System.out.println("Digite um texto.");
             sc.nextLine();
@@ -16,14 +17,19 @@ public class interfaceUsuario {
         return sc.nextLine();
     }
 
+
     public int lerInteiro(String mensagem) {
-        //fazer comparação se o dado for correto, se não for inteiro, manda na tela para retornar um certo
+        System.out.print(mensagem);
+
         while (!sc.hasNextInt()) {
-            System.out.println("Digite um número inteiro.");
+            System.out.println("Por favor, insira um número válido.");
             sc.nextLine();
         }
-        return sc.nextInt();
+        int numero = sc.nextInt();
+        sc.nextLine();
+        return numero;
     }
+
 
     public void fecharScanner() {
         sc.close();

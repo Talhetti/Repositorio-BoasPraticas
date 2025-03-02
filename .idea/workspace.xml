@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f51f041-d769-412a-ac56-b18fd533efae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/interfaceUsuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GerenciadorDeArtistas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GerenciadorDeArtistas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GerenciadorDeDiscos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GerenciadorDeDiscos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaceUsuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Branch-Marcelo",
     "kotlin-language-version-configured": "true",
