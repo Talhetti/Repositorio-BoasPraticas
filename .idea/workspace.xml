@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f51f041-d769-412a-ac56-b18fd533efae" name="Changes" comment="comit sobre alteração de variáveis para melhor entendimento da tela Disco">
-      <change afterPath="$PROJECT_DIR$/src/interfaceUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GerenciadorDeArtistas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GerenciadorDeArtistas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GerenciadorDeDiscos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GerenciadorDeDiscos.java" afterDir="false" />
-    </list>
+    <list default="true" id="5f51f041-d769-412a-ac56-b18fd533efae" name="Changes" comment="comit sobre alteração de variáveis para melhor entendimento da tela Disco" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
