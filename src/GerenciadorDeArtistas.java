@@ -14,23 +14,7 @@ public class GerenciadorDeArtistas {
         Artista artista = new Artista(nome, generoMusical);
         artistas.add(artista);
         System.out.println("Artista adicionado!");
-    }//método que criei para que o usuário cadastre somente um artista
-
-    public void adicionarDuplaDeArtistas(Scanner sc) {
-        System.out.println("\nAdicionar uma dupla de artistas");
-        System.out.print("Nome da dupla: ");
-        String nomeDupla = sc.nextLine();
-        System.out.print("Gênero musical da dupla: ");
-        String generoMusical = sc.nextLine();
-        System.out.print("Nome do primeiro artista: ");
-        String nomeArtista1 = sc.nextLine();
-        System.out.print("Nome do segundo artista: ");
-        String nomeArtista2 = sc.nextLine();
-
-        DuplaDeArtista dupla = new DuplaDeArtista(nomeDupla, generoMusical, nomeArtista1, nomeArtista2);
-        artistas.add(dupla);
-        System.out.println("Dupla de artistas adicionada!");
-    }//esse é o método para o usuário cadastrar uma dupla de artistas
+    }
 
     public Artista buscarArtistaPorNome(String nome) {
         for (Artista artista : artistas) {
@@ -39,10 +23,10 @@ public class GerenciadorDeArtistas {
             }
         }
         return null;
-    }//foi necessário criar esse método para associar com o gerenciador de discos depois
+    }
 
     public void listarArtistas() {
-        if (artistas.isEmpty()) {//usei para verificar se lista está vazia
+        if (artistas.isEmpty()) {
             System.out.println("Nenhum artista foi cadastrado.");
         } else {
             System.out.println("\nLista de artistas: ");
