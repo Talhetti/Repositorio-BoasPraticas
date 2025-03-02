@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f51f041-d769-412a-ac56-b18fd533efae" name="Changes" comment="comit sobre alteração de variáveis para melhor entendimento da tela Disco" />
+    <list default="true" id="5f51f041-d769-412a-ac56-b18fd533efae" name="Changes" comment="comit sobre alteração de variáveis para melhor entendimento da tela Disco">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Disco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GerenciadorDeArtistas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GerenciadorDeArtistas.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,20 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "branch-Alvaro",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Arthu/Desktop/Cat-logoDiscos-main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;branch-Alvaro&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Arthu/Desktop/Cat-logoDiscos-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,7 +70,10 @@
       <updated>1740659373009</updated>
       <workItem from="1740659374270" duration="366000" />
       <workItem from="1740662484461" duration="219000" />
-      <workItem from="1740662724430" duration="341000" />
+      <workItem from="1740662724430" duration="973000" />
+      <workItem from="1740700085164" duration="143000" />
+      <workItem from="1740701111776" duration="49000" />
+      <workItem from="1740858282188" duration="2783000" />
     </task>
     <task id="LOCAL-00001" summary="comit sobre alteração de variáveis para melhor entendimento da tela Disco">
       <option name="closed" value="true" />
@@ -73,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740663066629</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="comit sobre alteração de variáveis para melhor entendimento da tela Disco">
+      <option name="closed" value="true" />
+      <created>1740663103280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740663103280</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
