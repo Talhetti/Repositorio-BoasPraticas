@@ -16,6 +16,24 @@ public class GerenciadorDeArtistas {
         System.out.println("Artista adicionado!");
     }
 
+    public void adicionarDuplaDeArtistas(Scanner sc) {
+        System.out.println("\nAdicionar uma dupla de artistas");
+        System.out.print("Nome da dupla: ");
+        String nomeDupla = sc.nextLine();
+        System.out.print("Gênero musical da dupla: ");
+        String generoMusical = sc.nextLine();
+        System.out.print("Nome do primeiro artista: ");
+        String nomeArtista1 = sc.nextLine();
+        System.out.print("Nome do segundo artista: ");
+        String nomeArtista2 = sc.nextLine();
+
+        DuplaDeArtista dupla = new DuplaDeArtista(nomeDupla, generoMusical, nomeArtista1, nomeArtista2);
+        artistas.add(dupla);
+        System.out.println("Dupla de artistas adicionada!");
+    }//esse é o método para o usuário cadastrar uma dupla de artistas
+
+
+
     public Artista buscarArtistaPorNome(String nome) {
         for (Artista artista : artistas) {
             if (artista.getNome().equalsIgnoreCase(nome)) {

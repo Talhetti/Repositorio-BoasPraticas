@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f51f041-d769-412a-ac56-b18fd533efae" name="Changes" comment="comit sobre alteração de variáveis para melhor entendimento da tela Disco">
+    <list default="true" id="5f51f041-d769-412a-ac56-b18fd533efae" name="Changes" comment="Finalização da tela disco - Melhorias nos métodos settes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Disco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GerenciadorDeArtistas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GerenciadorDeArtistas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,7 @@
       <workItem from="1740662724430" duration="973000" />
       <workItem from="1740700085164" duration="143000" />
       <workItem from="1740701111776" duration="49000" />
-      <workItem from="1740858282188" duration="2783000" />
+      <workItem from="1740858282188" duration="3614000" />
     </task>
     <task id="LOCAL-00001" summary="comit sobre alteração de variáveis para melhor entendimento da tela Disco">
       <option name="closed" value="true" />
@@ -99,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comit sobre alteração de variáveis para melhor entendimento da tela Disco" />
-    <option name="LAST_COMMIT_MESSAGE" value="comit sobre alteração de variáveis para melhor entendimento da tela Disco" />
+    <MESSAGE value="Finalização da tela disco - Melhorias nos métodos settes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalização da tela disco - Melhorias nos métodos settes." />
   </component>
 </project>
