@@ -3,8 +3,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        GerenciadorDeArtistas gerenciadorDeArtistas = new GerenciadorDeArtistas();
-        GerenciadorDeDiscos gerenciadorDeDiscos = new GerenciadorDeDiscos();
+        interfaceUsuario iu = new interfaceUsuario(sc);
+        GerenciadorDeArtistas gerenciadorDeArtistas = new GerenciadorDeArtistas(iu);
+        GerenciadorDeDiscos gerenciadorDeDiscos = new GerenciadorDeDiscos(iu);
 
         int escolha = 0;
 
@@ -19,21 +20,20 @@ public class Main {
             System.out.println("7 : Remover Disco");
             System.out.println("8 : Sair");
             System.out.print("Escolha uma opção correta: ");
-            escolha = sc.nextInt();
-            sc.nextLine();
+            escolha = iu.lerInteiro("");
 
             switch (escolha) {
                 case 1:
-                    gerenciadorDeArtistas.adicionarArtista(sc);
+                    gerenciadorDeArtistas.adicionarArtista();
                     break;
                 case 2:
-                    gerenciadorDeArtistas.adicionarDuplaDeArtistas(sc);
+                    gerenciadorDeArtistas.adicionarDuplaDeArtistas();
                     break;
                 case 3:
-                    gerenciadorDeDiscos.adicionarDisco(sc, gerenciadorDeArtistas);
+                    gerenciadorDeDiscos.adicionarDisco();
                     break;
                 case 4:
-                    gerenciadorDeDiscos.adicionarFaixaAoDisco(sc);
+                    gerenciadorDeDiscos.adicionarFaixaAoDisco();
                     break;
                 case 5:
                     gerenciadorDeDiscos.listarDiscos();
@@ -42,7 +42,7 @@ public class Main {
                     gerenciadorDeArtistas.listarArtistas();
                     break;
                 case 7:
-                    gerenciadorDeDiscos.removerDisco(sc);
+                    gerenciadorDeDiscos.removerDisco();
                     break;
                 case 8:
                     System.out.println("Saindo..");
@@ -53,6 +53,7 @@ public class Main {
             }
         } while (escolha != 8);
 
-        sc.close();
+        iu.fecharScanner();
     }
 }
+

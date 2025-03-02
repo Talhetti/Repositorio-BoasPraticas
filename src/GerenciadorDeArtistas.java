@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class GerenciadorDeArtistas {
-    private ArrayList<Artista> artistas = new ArrayList<>();
-    private interfaceUsuario iu;
+    private static final ArrayList<Artista> artistas = new ArrayList<>();
+    private final interfaceUsuario iu;
 
     public GerenciadorDeArtistas(interfaceUsuario iu) {
         this.iu = iu;
@@ -51,16 +51,16 @@ public class GerenciadorDeArtistas {
     }
 
     public void removerArtista() {
-        System.out.println("\nRemover artista");
-        String nome = iu.lerTexto("Nome do artista: ");
+        System.out.println("\nRemover artista: ");
+        String nomeArtista = iu.lerTexto("Nome do artista: ");
 
-        Artista artista = buscarArtistaPorNome(nome);
-        if (artista == null) {
-            System.out.println("Artista não encontrado ou cadastrado.");
-            return;
+        for (Artista artista : artistas) {
+            if (artista.getNome().equalsIgnoreCase(nomeArtista)) {
+                artistas.remove(artista);
+                System.out.println("Artista removido!");
+                return;
+            }
         }
-
-        artistas.remove(artista);
-        System.out.println("Artista removido!");
+        System.out.println("Artista não encontrado ou cadastrado.");
     }
 }

@@ -1,14 +1,14 @@
 import java.util.ArrayList;
 
 public class GerenciadorDeDiscos {
-    private ArrayList<Disco> discos = new ArrayList<>();
+    private final ArrayList<Disco> discos = new ArrayList<>();
     private interfaceUsuario iu;
 
     public GerenciadorDeDiscos(interfaceUsuario iu) {
         this.iu = iu;
     }
 
-    public void adicionarDiscos() {
+    public void adicionarDisco() {
         System.out.println("\nAdicionar disco: ");
         String titulo = iu.lerTexto("Título do disco: ");
         int anoLancamento = iu.lerInteiro("Ano de lançamento: ");

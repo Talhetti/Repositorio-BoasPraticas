@@ -1,99 +1,60 @@
 import java.util.ArrayList;
-//Aplicando boas práticas de programação nesse código.
-public class Disco { //A antiga classe disco, não tinha variáveis bem definidas. A adição da palavra Disco ao final da palavra
-    private String tituloDisco;
-    private int anoLancamentoDisco;
-    private Artista artistaDisco;
-    private ArrayList<String> faixasDisco;
 
-    public Disco(String tituloDisco, int anoLancamentoDisco, Artista artistaDisco) {
-        this.tituloDisco = tituloDisco;
-        this.anoLancamentoDisco = anoLancamentoDisco;
-        this.artistaDisco = artistaDisco;
-        this.faixasDisco = new ArrayList<>();
+public class Disco {
+    private String titulo;
+    private int anoLancamento;
+    private Artista artista;
+    private ArrayList<String> faixas;//maneira certa para colocar lista como atributo
+
+    public Disco(String titulo, int anoLancamento, Artista artista) {
+        this.titulo = titulo;
+        this.anoLancamento = anoLancamento;
+        this.artista = artista;
+        this.faixas = new ArrayList<>();
+    }//construtor não recebe faixas como parâmetro pois posteriormente serão adicionadas
+
+    public String getTitulo() {
+        return titulo;
     }
 
-    public String getTituloDisco() {return tituloDisco;}
-
-    /*public void setTituloDisco(String tituloDisco) {
-        this.tituloDisco = tituloDisco;
-    }
-    Esse bloco de código está suscetível a erro, pois o usuário pode colocar um título de disco nulo ou vazio, o que não é possível.
-    */
-
-    public void setTituloDisco(String tituloDisco) {
-        if(tituloDisco == null || tituloDisco.trim().isEmpty()){
-            System.out.println("O título do disco não pode ser nulo ou vazio.");
-        } else {
-            this.tituloDisco = tituloDisco;
-        }
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
-    public int getAnoLancamentoDisco() {
-        return anoLancamentoDisco;
+    public int getAnoLancamento() {
+        return anoLancamento;
     }
 
-    /*public void setAnoLancamentoDisco(int anoLancamentoDisco) {
-        this.anoLancamentoDisco = anoLancamentoDisco;
-    }
-    Esse bloco de código está suscetível a erro, pois o usuário para colocar zero na data de lançamento do disco, o que não é possível.
-    */
-
-    public void setAnoLancamentoDisco(int anoLancamentoDisco) {
-        if(anoLancamentoDisco <= 0){
-            System.out.println("O ano de lançamento do disco não pode ser zero ou menor que zero.");
-        } else {
-            this.anoLancamentoDisco = anoLancamentoDisco;
-        }
-    }//Código alterado e melhorado
-
-    public Artista getArtistaDisco() {
-        return artistaDisco;
+    public void setAnoLancamento(int anoLancamento) {
+        this.anoLancamento = anoLancamento;
     }
 
-    /*public void setArtistaDisco(Artista artista) {
-        this.artistaDisco = artistaDisco;
+    public Artista getArtista() {
+        return artista;
     }
 
-    Esse bloco de código está suscetível a erro, pois o usuário pode colocar um artista nulo, o que não é possível.
-
-    */
-
-    public void setArtistaDisco(Artista artistaDisco) {
-        if(artistaDisco == null){
-            System.out.println("O artista do disco não pode ser nulo.");
-        } else {
-            this.artistaDisco = artistaDisco;
-        }
-    }//Código alterado e melhorado
-
-    public ArrayList<String> getFaixasDisco() {
-        return faixasDisco;
+    public void setArtista(Artista artista) {
+        this.artista = artista;
     }
 
-    /*public void setFaixasDisco(ArrayList<String> faixas) {
-        this.faixasDisco = faixas;
-    }*/
-    //Esse bloco de código está suscetível a erro, pois o usuário pode colocar uma lista de faixas nula, o que não é possível.
+    public ArrayList<String> getFaixas() {
+        return faixas;
+    }
 
-    public void setFaixasDisco(ArrayList<String> faixasDisco) {
-        if(faixasDisco == null){
-            System.out.println("A lista de faixas do disco não pode ser nula.");
-        } else {
-            this.faixasDisco = faixasDisco;
-        }
-    }//Código alterado e melhorado
+    public void setFaixas(ArrayList<String> faixas) {
+        this.faixas = faixas;
+    }
 
     public void adicionarFaixa(String faixa) {
-        faixasDisco.add(faixa);
+        faixas.add(faixa);
     }
 
     @Override
     public String toString() {
-        return "titulo: " + tituloDisco +
-                "\nano lancamento: " + anoLancamentoDisco +
-                "\nartista: " + artistaDisco.getNome() +
-                "\nfaixas: " + faixasDisco +
+        return "titulo: " + titulo +
+                "\nano lancamento: " + anoLancamento +
+                "\nartista: " + artista.getNome() + //usei o getNome para pegar o atributo da outra classe
+                "\nfaixas: " + faixas +
                 "\n--------";
     }
 }
