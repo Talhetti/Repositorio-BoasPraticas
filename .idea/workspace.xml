@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f51f041-d769-412a-ac56-b18fd533efae" name="Changes" comment="" />
+    <list default="true" id="5f51f041-d769-412a-ac56-b18fd533efae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/interfaceUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GerenciadorDeArtistas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GerenciadorDeArtistas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GerenciadorDeDiscos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GerenciadorDeDiscos.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2tcliOlufkUAxP68PNUOU1127Cm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Branch-Marcelo",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Arthu/Desktop/Cat-logoDiscos-main",
     "node.js.detected.package.eslint": "true",
