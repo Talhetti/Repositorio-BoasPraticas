@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class GerenciadorDeArtistas {
     private static final ArrayList<Artista> artistas = new ArrayList<>();
-    private final interfaceUsuario iu;
+    private final EntradaUsuario iu;
 
-    public GerenciadorDeArtistas(interfaceUsuario iu) {
+    public GerenciadorDeArtistas(EntradaUsuario iu) {
         this.iu = iu;
     }
 

@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class GerenciadorDeDiscos {
     private final ArrayList<Disco> discos = new ArrayList<>();
-    private interfaceUsuario iu;
+    private EntradaUsuario iu;
 
-    public GerenciadorDeDiscos(interfaceUsuario iu) {
+    public GerenciadorDeDiscos(EntradaUsuario iu) {
         this.iu = iu;
     }
 

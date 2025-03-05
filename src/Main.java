@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        interfaceUsuario iu = new interfaceUsuario(sc);
+        EntradaUsuario iu = new EntradaUsuario(sc);
         GerenciadorDeArtistas gerenciadorDeArtistas = new GerenciadorDeArtistas(iu);
         GerenciadorDeDiscos gerenciadorDeDiscos = new GerenciadorDeDiscos(iu);
 
